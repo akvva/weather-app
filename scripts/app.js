@@ -29,6 +29,7 @@ const updateUI = (data) => {
   if(card.classList.contains('d-none')){
     card.classList.remove('d-none');
   }
+  window.scrollTo(0,document.body.scrollHeight);
 };
 
 const updateCity = async (city) => {
